@@ -83,11 +83,24 @@ nav ul li .active {
     margin-bottom: 50px;
 }
 
+.article .button {
+    color: #fff;
+    padding: 12px 15px;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #0F96A6;
+}
+
+.article .button:hover {
+    background-color: #8DD5DE;
+    transition: 0.5s ease;
+}
+
 @media only screen and (max-width: 600px) {
     body {
         font-size: 14px;
         background-color: #8DD5DE;
-        background-image: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url(/assets/images/poster\ fluid.png);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), none;
 
     }
 
