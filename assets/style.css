@@ -10,7 +10,7 @@
 }
 
 section {
-    min-height: 100vh;
+    min-height: 150vh;
     background-image: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url(../assets/images/w21.jpg);
     /* background-image: url(./images/posterfluid.png); */
     background-repeat: no-repeat;
@@ -100,10 +100,15 @@ nav ul li .active {
 @media only screen and (max-width: 600px) {
     body {
         font-size: 14px;
-        background-color: #97AF99;
-        background-image: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), none;
+        background-color: #173636;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url(../assets/images/w21.jpg);
 
+    }
 
+    nav ul li {
+        display: inline-block;
+        list-style: none;
+        padding: 0px 1px;
     }
 
 }
